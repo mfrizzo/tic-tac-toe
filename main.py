@@ -67,3 +67,6 @@ update_board(board, [0, 0], 'O')
 update_board(board, [1, 0], 'X')
 
 update_board(board, [1, 1], 'O')
+
+print_board(board)
+print(check_for_winner(board, 'O'))
